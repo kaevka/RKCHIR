@@ -1,0 +1,59 @@
+/* top, right, bottom, left */
+
+body{
+   padding: 10px 70px 50px; 
+   background-color:rgb(89, 65, 65);
+}
+/*.rightpic{
+    float: right;
+    padding: 0 0 5px 50px;
+}*/
+.opisanie{
+    color:blueviolet;
+}
+#upleft { 
+    width:450px; 
+    height: 700px;       
+    float:left; 
+ }
+ #upmiddle { 
+    width:450px; 
+    height:700px; 
+    float:left
+ }
+ #upright { 
+    height:700px; 
+    width:300px; 
+    float: right; 
+    padding: 0 163px 0 0;
+ }
+ p{
+    color:aquamarine;
+    font-family: 'Marck Script', cursive;
+ }
+ h1{
+    color:brown;
+    font-family: Pompadur, 'Comic Sans MS', cursive;
+ }
+ a{
+    color:black
+ }
+ header:active{
+    color:red;
+ }
+ h2:hover{
+    color:antiquewhite;
+ }
+a:visited{
+    color:darkblue;
+}
+div article{
+    border: 10px double black;
+    padding: 10px;
+}
+ol li{
+    color: wheat;
+}
+ol + p{
+    color: wheat;
+}

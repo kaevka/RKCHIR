@@ -1,0 +1,138 @@
+body{
+   padding: 10px 70px 50px; 
+   background: url(https://bigfoto.name/uploads/posts/2022-03/1648571197_1-bigfoto-name-p-estetichnii-korichnevii-fon-v-interere-2.jpg);
+}
+/*.rightpic{
+    float: right;
+    padding: 0 0 5px 50px;
+}*/
+/*
+.opisanie{
+    color:blueviolet;
+}*/
+/*#upleft { 
+    width:450px; 
+    height: 700px;       
+    float:left; 
+ }
+ #upmiddle { 
+    width:450px; 
+    height:700px; 
+    float:left
+ }
+ #upright { 
+    height:700px; 
+    width:300px; 
+    float: right; 
+    padding: 0 163px 0 0;
+ }*/
+ p{
+    font-family: 'Marck Script', cursive;
+ }
+ h1{
+    font-family: Pompadur, 'Comic Sans MS', cursive;
+ }
+ a{
+    color:black
+ }
+
+ header:active{
+    color:red;
+ }
+ h2:hover{
+    color:antiquewhite;
+ }
+a:visited{
+    color:darkblue;
+}
+
+/*рамки у фоток*/
+div article{
+    border: 10px double black;
+    padding: 10px;
+}
+ol li{
+    color: wheat;
+}
+ol + p{
+    color: wheat;
+}
+nav{
+   font-size: 20px;
+   font-family:'Times New Roman', Times, serif;
+   position: fixed; 
+   right: 10px;
+   top: 10px;
+   background-color: brown;
+}
+header{
+   position: sticky;
+   top: 0;
+   background-color:azure; height: 100px ;
+   
+}
+footer{
+   position: relative;
+}
+#upleft { 
+   width:450px; 
+   height: 705px;  
+   background: #faebd7;
+   display: inline-block;
+}
+#upmiddle { 
+   width:450px; 
+   height:670px; 
+   background: #faebd7;
+   display: inline-block;
+}
+#upright { 
+   height:370px; 
+   width:300px; 
+   background: #faebd7;
+   display: inline-block;
+   /*padding: 0 163px 0 0;*/
+}
+video {
+   top: 300px;
+   margin-left: 500px;
+}
+.tabs {
+   width: 100% ;
+   padding: 0px;
+   margin:0 auto;
+}
+.tabs>input { display: none; }
+.tabs>div {
+   display: none;
+   padding: 12px;
+   border: 1px solid #C0C0C0;
+   background: url(https://bigfoto.name/uploads/posts/2022-01/thumbs/1641066354_64-bigfoto-name-p-krasivii-korichnevii-fon-v-interere-75.jpg);
+}
+.tabs, label{
+   color: white;
+}
+.tabs>label {
+   display: inline-block;
+   padding: 7px;
+   margin: 0 -5px -1px 0;
+   text-align: center;
+   color: #666666;
+   border: 1px solid #C0C0C0;
+   background: #E0E0E0;
+   cursor: pointer;
+}
+.tabs>input:checked + label {
+   color: #000000;
+   border: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+   background: #ffcdd2;
+}
+#tab1:checked ~ #txt1,
+#tab2:checked ~ #txt2,
+#tab3:checked ~ #txt3
+{ display: block; }
+:focus::-webkit-input-placeholder {color: transparent} /*при фокусе исчезает, для разных браузеров*/
+:focus::-moz-placeholder          {color: transparent} /**/
+:focus:-moz-placeholder           {color: transparent} /**/
+:focus:-ms-input-placeholder      {color: transparent} /**/

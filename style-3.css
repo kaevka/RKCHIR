@@ -1,0 +1,110 @@
+/* top, right, bottom, left */
+
+body{
+   padding: 10px 70px 50px; 
+   background-color: white;
+}
+/*.rightpic{
+    float: right;
+    padding: 0 0 5px 50px;
+}*/
+/*
+.opisanie{
+    color:blueviolet;
+}*/
+/*#upleft { 
+    width:450px; 
+    height: 700px;       
+    float:left; 
+ }
+ #upmiddle { 
+    width:450px; 
+    height:700px; 
+    float:left
+ }
+ #upright { 
+    height:700px; 
+    width:300px; 
+    float: right; 
+    padding: 0 163px 0 0;
+ }*/
+ p{
+    /*color:aquamarine;*/
+    font-family: 'Marck Script', cursive;
+ }
+ h1{
+    /*color:brown;*/
+    font-family: Pompadur, 'Comic Sans MS', cursive;
+ }
+ a{
+    color:black
+ }
+
+ header:active{
+    color:red;
+ }
+ h2:hover{
+    color:antiquewhite;
+ }
+a:visited{
+    color:darkblue;
+}
+
+/*рамки у фоток*/
+div article{
+    border: 10px double black;
+    padding: 10px;
+}
+ol li{
+    color: wheat;
+}
+ol + p{
+    color: wheat;
+}
+nav{
+   font-size: 20px;
+   font-family:'Times New Roman', Times, serif;
+   position: fixed; 
+   right: 10px;
+   top: 10px;
+   background-color: brown;
+}
+#начало{
+   position: absolute;
+   left: 900px;
+   top: 600px;
+   bottom: 100;
+   background-color: brown;
+}
+header{
+   position: sticky;
+   top: 0;
+   background-color:azure; height: 100px ;
+   
+}
+footer{
+   position: relative;
+}
+#upleft { 
+   width:450px; 
+   height: 710px;  
+   background: yellow;
+   display: inline-block;
+}
+#upmiddle { 
+   width:450px; 
+   height:670px; 
+   background: cyan;
+   display: inline-block;
+}
+#upright { 
+   height:370px; 
+   width:300px; 
+   background: red;
+   display: inline-block;
+   /*padding: 0 163px 0 0;*/
+}
+.imgFl{
+    float: left;
+    height:250px;
+}
